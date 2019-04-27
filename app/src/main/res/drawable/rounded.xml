@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <!--apply button background transparent, full opacity-->
+            <solid android:color="@android:color/transparent"/>
+            <stroke android:color="#FFFFff"
+                android:width="3dp"
+                />
+            <corners android:radius="150dp"
+
+                />
+            <padding android:bottom="10dp" android:left="20dp" android:right="20dp" android:top="10dp" />
+
+        </shape>
+
+    </item>
+</selector>

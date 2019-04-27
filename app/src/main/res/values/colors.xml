@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#b40000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text_color">#FFF</color>
+    <color name="Email_color">#F0E5E3</color>
+    <color name="Password_color">#F0E5E3</color>
+    <color name="background">#110d0d</color>
+    <color name="back">#d50000</color>
+</resources>

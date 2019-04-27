@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TrackSystem</string>
+    <string name="title_activity_main_slider1">MainActivitySlider1</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_time_table">TimeTable</string>
+    <string name="title_activity_tracking__train">Tracking_Train</string>
+    <string name="title_activity_side__menu">Side_Menu</string>
+    <string name="track">Track</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="new_message_notification_title_template">Tracking System Notification</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message_notification_placeholder_text_template">The Train Will arrive to %1$s Station Approximately In 30 Minutes
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+</resources>

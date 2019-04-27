@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+        <item>Malatya(Elmnya)</item>
+        <item>Maghagha(Elmnya)</item>
+        <item>Aba Elwakf(Elmnya)</item>
+        <item>ELmwada(Elmnya)</item>
+        <item>Bani Mazar(Elmnya)</item>
+        <item>EL kafor(Elmnya)</item>
+        <item>Matay(Elmnya)</item>
+        <item>Qalosna(Elmnya)</item>
+        <item>Samalout(Elmnya)</item>
+        <item>El beho(Elmnya)</item>
+        <item>Itsa(Elmnya)</item>
+        <item>Saft El-labn(Elmnya)</item>
+        <item>E brgaya (Elmnya)</item>
+        <item>Damares (Elmnya)</item>
+        <item>Elmnya</item>
+        <item>Masna ElGhazl(Elmnya)</item>
+        <item>Bani Ahmed(Elmnya)</item>
+        <item>Manasafes (Elmnya)</item>
+        <item>Abyoha (Elmnya)</item>
+        <item>Abo Qrqas (Elmnya)</item>
+        <item>Atledm(Elmnya)</item>
+        <item>Elmhrs(Elmnya)</item>
+        <item>Malawi(Elmnya)</item>
+        <item>Maasrt Malwai(Elmnya)</item>
+        <item>Tal ELamarna(Elmnya)</item>
+        <item>Der Mawas(Elmnya)</item>
+
+        <item>EL Garf(Assuit)</item>
+        <item>Dayroit(Assuit)</item>
+        <item>Sanbo(Assuit)</item>
+        <item>Fazara(Assuit)</item>
+        <item>EL Qusia(Assuit)</item>
+        <item>Bani Qraa(Assuit)</item>
+        <item>Bani Shoqer(Assuit)</item>
+        <item>Manflout(Assuit)</item>
+        <item>El-Hawtka(Assuit)</item>
+        <item>Nag Saba(Assuit)</item>
+        <item>Bani Hussien(Assuit)</item>
+        <item>Manaabad(Assuit)</item>
+        <item>Gamat ELAzhar(Assuit)</item>
+        <item>Assuit</item>
+        <item>Shootb(Assuit)</item>
+        <item>Baqoor(Assuit)</item>
+        <item>Abu Tig(Assuit)</item>
+        <item>El-nikhela(Assuit)</item>
+        <item>Sedfa(Assuit)</item>
+        <item>Awlad Elyas(Assuit)</item>
+    </string-array>
+
+    <string-array name="classSpinn">
+        <item>All</item>
+        <item>Sleep</item>
+        <item>VIP</item>
+        <item>Air Conditioned</item>
+        <item>Distinct</item>
+        <item>Improved</item>
+
+    </string-array>
+</resources>

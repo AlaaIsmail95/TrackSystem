@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "524269024890",
+    "firebase_url": "https://tracksystem-195820.firebaseio.com",
+    "project_id": "tracksystem-195820",
+    "storage_bucket": "tracksystem-195820.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524269024890:android:e167aa08b6cf4f79",
+        "android_client_info": {
+          "package_name": "com.example.tracksystem.tracksystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524269024890-j522asijsl50ikvttoh7eu1vksmhabuc.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "524269024890-qecp6mejr681pl8u4ki5gmhdsudmukda.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tracksystem.tracksystem",
+            "certificate_hash": "cc60a12cbea29df00ea844b2c5df9ef3100fad73"
+          }
+        },
+        {
+          "client_id": "524269024890-19l9qlblrnefqptvo8cung8e0rpep2kq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7i41p1zwcoX8j0fIarf83gOqcJWcaong"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524269024890-j522asijsl50ikvttoh7eu1vksmhabuc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

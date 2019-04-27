@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registerback"
+    tools:context="com.example.tracksystem.tracksystem.log_in"
+    tools:layout_editor_absoluteY="25dp">
+
+    <View
+        android:id="@+id/title33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:alpha="0.6"
+        android:background="#000000"
+
+        />
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="49dp">
+
+        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:scrollbars="vertical">
+
+            <View
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:alpha="0.6"
+                android:background="#000000"
+
+                />
+            <!-- SIGN_IN text -->
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="SIGN IN"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="33sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/title" />
+            <!-- EMAIL -->
+            <EditText
+                android:id="@+id/txtmail"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:drawablePadding="10dp"
+
+
+                android:ems="10"
+                android:hint="Enter your Email"
+                android:inputType="textEmailAddress"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#cccccc"
+                android:textSize="14dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+            <!-- password-->
+            <EditText
+                android:id="@+id/txtpassword"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/ic_visibility_black_24dp"
+                android:ems="10"
+                android:hint="Enter your Passwrod"
+                android:inputType="textPassword"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#cccccc"
+                android:textSize="14dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtmail" />
+            <!-- remember me -->
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="12dp"
+                android:text="Remember me"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtpassword" />
+            <!-- Forgot text-->
+            <TextView
+                android:id="@+id/Forgot_pass"
+                android:layout_width="128dp"
+                android:layout_height="27dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Forgot Password"
+                android:textColor="#DF0101"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.578"
+                app:layout_constraintStart_toEndOf="@+id/checkBox2"
+                app:layout_constraintTop_toBottomOf="@+id/txtpassword" />
+            <!-- SIGN_IN BUTTON -->
+            <Button
+                android:id="@+id/Sigin_Button"
+                android:layout_width="133dp"
+                android:layout_height="39dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="88dp"
+                android:background="@drawable/log_but"
+
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="SIGN IN"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+            <!-- GOOGLE BUTTON -->
+            <Button
+                android:id="@+id/google_SignIn"
+                android:layout_width="133dp"
+                android:layout_height="39dp"
+
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/google"
+                android:drawableLeft="@drawable/ic_goo"
+                android:drawableStart="@drawable/ic_goo"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:text="Google"
+                android:textAllCaps="false"
+                android:textColor="#DF0101"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.6"
+                app:layout_constraintStart_toEndOf="@+id/Sigin_Button"
+                app:layout_constraintTop_toBottomOf="@+id/Forgot_pass" />
+            <!-- Sign up now text-->
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginTop="8dp"
+                android:text="Not a member?"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Sigin_Button"
+                app:layout_constraintVertical_bias="0.702" />
+
+            <TextView
+                android:id="@+id/signUpText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text=" Sign up now."
+                android:textColor="#DF0101"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView6"
+                app:layout_constraintTop_toBottomOf="@+id/google_SignIn"
+                app:layout_constraintVertical_bias="0.704" />
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
